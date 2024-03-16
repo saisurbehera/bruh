@@ -1,0 +1,16 @@
+[package]
+name = "prism"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lri-rs = { path = "../lri-rs" }
+png = "0.17.10"
+rawproc = { git = "https://github.com/eclecticnybles/gaze" }
+rawloader = "0.37.1"
+nalgebra = "0.31.4"
+#mozjpeg = "0.10.1"
+zune-jpeg = "0.3.17"
+camino = "1.1.6"
